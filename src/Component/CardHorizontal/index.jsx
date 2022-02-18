@@ -3,14 +3,14 @@ import { Button, Card,  Col, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import ShowImage from './showImage';
 
-function CardProductByCategory({product}) {
+function CardHorizontalHotel({ImageHotels}) {
 
         return (
             <div className={'mt-3'}>
             <Card >
                 <Row>
                     <Col md={6} >
-                         <ShowImage />
+                         <ShowImage ImageHotel={ImageHotels} />
                     </Col>
                     <Col md={6} >
                     <Card.Body>
@@ -31,4 +31,4 @@ function CardProductByCategory({product}) {
         );
 }
 
-export default CardProductByCategory;
+export default CardHorizontalHotel;

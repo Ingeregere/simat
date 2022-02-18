@@ -19,7 +19,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-md-3 col-sm-12 offset-1 mb-2 sectionFooter">
-                            <h5 className={'text-white'}>Les cours de VBC</h5>
+                            <h5 className={'text-white'}>Nos services</h5>
                             <ul className="nav flex-column">
                             <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-dark all_link    text-white">SIMAT-BURUNDI</Link></li>
                                 <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-dark all_link    text-white">A propos de nous</Link></li>
