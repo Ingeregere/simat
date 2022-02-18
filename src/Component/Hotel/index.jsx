@@ -10,6 +10,7 @@ import ImageHotel6 from "../Hotel/images/hotel6.jpg"
 
 import './styleHotel.css'
 import CardHorizontalHotel from '../CardHorizontal'
+import Filtre from './Filter'
 
 export default function Hotel() {
   return (
@@ -17,15 +18,17 @@ export default function Hotel() {
         <Row className={'mb-2'}>
             <Col md= {3}  className={' mb-5'} fixed={'top'}>
                  <Rechercher />
+                 <Filtre />
             </Col>
 
+
             <Col md= {9}>
-                <CardHorizontalHotel ImageHotels={ImageHotel1}  />
-                <CardHorizontalHotel ImageHotels={ImageHotel2}  />
-                <CardHorizontalHotel ImageHotels={ImageHotel1}  />
-                <CardHorizontalHotel ImageHotels={ImageHotel4}  />
-                <CardHorizontalHotel ImageHotels={ImageHotel5}  />
-                <CardHorizontalHotel ImageHotels={ImageHotel2}  />
+                <CardHorizontalHotel ImageHotels={ImageHotel1} NameHotel={"Hotel Novotel"}  />
+                <CardHorizontalHotel ImageHotels={ImageHotel2} NameHotel={"Hotel Club du lac tanganyika"}  />
+                <CardHorizontalHotel ImageHotels={ImageHotel1} NameHotel={"Hotel king"}  />
+                <CardHorizontalHotel ImageHotels={ImageHotel4} NameHotel={"Hotel Blaise"}  />
+                <CardHorizontalHotel ImageHotels={ImageHotel5} NameHotel={"Hotel Maria luxe "} />
+                <CardHorizontalHotel ImageHotels={ImageHotel2} NameHotel={"Hotel Panoramique"}  />
 
             </Col>
 

@@ -3,7 +3,7 @@ import { Button, Card,  Col, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import ShowImage from './showImage';
 
-function CardHorizontalHotel({ImageHotels}) {
+function CardHorizontalHotel({ImageHotels,NameHotel}) {
 
         return (
             <div className={'mt-3'}>
@@ -14,7 +14,7 @@ function CardHorizontalHotel({ImageHotels}) {
                     </Col>
                     <Col md={6} >
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>{NameHotel}</Card.Title>
                         <Card.Text>
                                 Situé à Bujumbura, à 5 km du musée Vivant, 
                                 l'Hotel Kangaroo Bujumbura propose un restaurant, 
