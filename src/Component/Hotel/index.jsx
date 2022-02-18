@@ -20,8 +20,6 @@ export default function Hotel() {
                  <Rechercher />
                  <Filtre />
             </Col>
-
-
             <Col md= {9}>
                  <h5>Voici tous les hotels du Burundi</h5>
                 <CardHorizontalHotel ImageHotels={ImageHotel1} NameHotel={"Hotel Novotel"}  />
@@ -31,9 +29,7 @@ export default function Hotel() {
                 <CardHorizontalHotel ImageHotels={ImageHotel5} NameHotel={"Hotel Maria luxe "} />
                 <CardHorizontalHotel ImageHotels={ImageHotel2} NameHotel={"Hotel Panoramique"}  />
             </Col>
-
         </Row>
-
     </Container>
   )
 }
