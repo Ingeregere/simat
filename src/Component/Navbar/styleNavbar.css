@@ -1,0 +1,25 @@
+.orderNavbar{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    border-color: aqua;
+
+}
+.navbar-light .navbar-toggler{
+    box-shadow: none;
+}
+.navbar-toggler{
+    background-color: aqua;
+    border:1px solid aqua
+
+}
+.bgNavbar{
+    background: aqua
+}
+.linksimatbdi{
+    margin: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    color: #000;
+}
