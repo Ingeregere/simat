@@ -23,13 +23,13 @@ export default function Hotel() {
 
 
             <Col md= {9}>
+                 <h5>Voici tous les hotels du Burundi</h5>
                 <CardHorizontalHotel ImageHotels={ImageHotel1} NameHotel={"Hotel Novotel"}  />
                 <CardHorizontalHotel ImageHotels={ImageHotel2} NameHotel={"Hotel Club du lac tanganyika"}  />
                 <CardHorizontalHotel ImageHotels={ImageHotel1} NameHotel={"Hotel king"}  />
                 <CardHorizontalHotel ImageHotels={ImageHotel4} NameHotel={"Hotel Blaise"}  />
                 <CardHorizontalHotel ImageHotels={ImageHotel5} NameHotel={"Hotel Maria luxe "} />
                 <CardHorizontalHotel ImageHotels={ImageHotel2} NameHotel={"Hotel Panoramique"}  />
-
             </Col>
 
         </Row>

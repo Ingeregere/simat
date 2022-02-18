@@ -7,13 +7,13 @@ export default function Filtre () {
       <div className={'mt-5'}>
         <Card>
             <h5>Filtre par prix:</h5>
-           <CheckBox prix={"10000 à 30000"} />
-           <CheckBox prix={"30000 à 60000"} />
-           <CheckBox prix={"60000 à 90000"} />
-           <CheckBox prix={"90000 à 120000"} />
-           <CheckBox prix={"120000 à 150000"} />
-           <CheckBox prix={"150000 à 180000"} />
-           <CheckBox prix={"Au dela"} />
+           <CheckBox prix={"10000FBU à 30000FBU"} />
+           <CheckBox prix={"30000FBU à 60000FBU"} />
+           <CheckBox prix={"60000FBU à 90000FBU"} />
+           <CheckBox prix={"90000FBU à 120000FBU"} />
+           <CheckBox prix={"120000FBU à 150000FBU"} />
+           <CheckBox prix={"150000FBU à 180000FBU"} />
+           <CheckBox prix={"Au delà"} />
 
 
         </Card>
