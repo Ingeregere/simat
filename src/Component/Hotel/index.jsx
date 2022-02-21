@@ -3,10 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Rechercher from './Rechercher'
 import ImageHotel1 from "../Hotel/images/hotel1.jpg"
 import ImageHotel2 from "../Hotel/images/hotel2.jpg"
-import ImageHotel3 from "../Hotel/images/hotel3.jpg"
 import ImageHotel4 from "../Hotel/images/hotel4.jpg"
 import ImageHotel5 from "../Hotel/images/hotel5.jpg"
-import ImageHotel6 from "../Hotel/images/hotel6.jpg"
 
 import './styleHotel.css'
 import CardHorizontalHotel from '../CardHorizontal'

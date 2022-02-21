@@ -1,3 +1,19 @@
 .bgfooter{
-    background-color: green;
+    background-color: #1A1A1A;
+}
+.eb-company{
+    font-size: 15px;
+    font-weight: 500;
+    word-break: break-all;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.simat-burundi{
+    font-size: 14px;
+    word-break: break-all;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paddingfooter{
+   padding-top: 3em;
 }

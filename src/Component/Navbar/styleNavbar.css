@@ -2,24 +2,24 @@
     border: none !important;
 }
 .navbar-toggler:focus{
-    border-color: aqua;
+    border-color: #EDECEC;
 
 }
 .navbar-light .navbar-toggler{
     box-shadow: none;
 }
 .navbar-toggler{
-    background-color: aqua;
-    border:1px solid aqua
+    background-color: #EDECEC;
+    border:1px solid #EDECEC
 
 }
 .bgNavbar{
-    background: aqua
+    background: #EDECEC
 }
 .linksimatbdi{
-    margin: 2px;
+    margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
-    font-weight: 200;
-    color: #000;
+    font-weight: 500;
+    color: #fff;
 }

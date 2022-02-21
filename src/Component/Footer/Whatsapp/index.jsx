@@ -8,7 +8,7 @@ export default function WhatsappChat() {
 			phoneNumber={'+25772415986'} 
 			accountName={'SIMAT-BURUNDI'}
 			avatar={'images/drapeau.png'}
-			statusMessage={' En ligne'}
+			statusMessage={'En ligne'}
 			chatMessage={'Bonjour ! Est-ce-que je peux vous aider?'}
 			notification={true}
 			notificationSound={true}

@@ -1,6 +1,5 @@
 import React from 'react'
-import { Button,Carousel, Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Carousel, Col, Container, Row } from 'react-bootstrap'
 import './styleHero.css';
 
 
@@ -41,11 +40,6 @@ export default function HeroSections({
                     >
                       {description}
                     </p>
-                        <Link to='/'>
-                            <Button className={'mt-2 mb-2 btn-danger'}>
-                              {buttonLabel}
-                            </Button>
-                      </Link>
                    
               </div>
                 </Col>
@@ -58,10 +52,6 @@ export default function HeroSections({
                         src={img1}
                         alt={alt}
                       />
-                      {/* <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </Carousel.Caption> */}
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
@@ -69,11 +59,6 @@ export default function HeroSections({
                         src={img2}
                         alt={alt}
                       />
-
-                      {/* <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      </Carousel.Caption> */}
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
@@ -81,11 +66,6 @@ export default function HeroSections({
                         src={img3}
                         alt={alt}
                       />
-
-                      {/* <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                      </Carousel.Caption> */}
                     </Carousel.Item>
         </Carousel>
                 </Col>

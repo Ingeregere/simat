@@ -1,65 +1,59 @@
-import React from 'react';
+import React from 'react'
+import {  Col, Container, Row } from 'react-bootstrap'
 import './styleHero.css';
-import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 
-function HeroSection({
-  lightBg,
-  topLine,
-  lightText,
-  lightTextDesc,
-  headline,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  imgStart
+
+export default function HeroSections({
+    lightBg,
+    topLine,
+    lightText,
+    lightTextDesc,
+    headline,
+    description,
+    buttonLabel,
+    img1,
+    img2,
+    img3,
+    alt,
+    imgStart
 }) {
   return (
-    <>
-      <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
-      >
-        <div className='container'>
-          <div
-            className='row home__hero-row'
-            style={{
+    <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
+        <Container >
+            <Row style={{
               display: 'flex',
               flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-            }}
-          >
-            <div className='col'>
-              <div className='home__hero-text-wrapper'>
+            }}>
+                <Col md={6} className={""}>
+                
+              <div className=''>
                 <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
-                  {headline}
-                </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
-                  {description}
-                </p>
-                <Link to='/'>
-                  <Button>
-                    {buttonLabel}
-                  </Button>
-                </Link>
+                    <h1 className={lightText ? 'heading' : 'heading dark'}>
+                      {headline}
+                    </h1>
+                    <p
+                      className={
+                        lightTextDesc
+                          ? 'home__hero-subtitle'
+                          : 'home__hero-subtitle dark'
+                      }
+                    >
+                      {description}
+                    </p>
+                        
+                   
               </div>
-            </div>
-            <div className='col'>
-              <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className='home__hero-img' />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+                </Col>
+                <Col md={6}>
+                      <img
+                        className="d-block w-100"
+                        src={img1}
+                        alt={alt}
+                      />
+                
+                </Col>
+            </Row>
+        </Container>
+    </div>
+  )
 }
-
-export default HeroSection;

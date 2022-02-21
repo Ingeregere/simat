@@ -1,7 +1,7 @@
 .home__hero-section {
     color: #fff;
     padding: 100px 0;
-    background-color: #fff;
+    background-color: rgb(253, 247, 247);
 }
 
 .home__hero-row {
@@ -33,10 +33,10 @@
 }
 
 .top-line {
-  color: red;
-  font-size: 16px;
+  color: #000;
+  font-size: 20px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: bolder;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -44,7 +44,7 @@
 
 .heading {
   margin-bottom: 24px;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
@@ -55,7 +55,7 @@
 }
 
 .darkBg {
-  background-color: aqua;
+  background-color: #EDECEC;
   opacity: 0.9;
 }
 
@@ -64,6 +64,7 @@
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home__hero-img-wrapper {

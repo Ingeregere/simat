@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Card,  Col, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
 import ShowImage from './showImage';
 
 function CardHorizontalHotel({ImageHotels,NameHotel}) {
