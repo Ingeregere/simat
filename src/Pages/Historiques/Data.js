@@ -11,12 +11,12 @@ export const homeObjOne = {
     img1: 'images/bateaulaketanganyika.jpg',
     img2: 'images/animal.jpg',
     img3: 'images/panoramique.jpg',
-    alt: 'Credit Card'
+    alt: 'image'
   };
   
   export const homeObjTwo = {
     lightBg: false,
-    lightText: true,
+    lightText: false,
     lightTextDesc: false,
     topLine: "L'environnement",
     headline: "L'environnement",
@@ -27,13 +27,13 @@ export const homeObjOne = {
     img1: 'images/bateaulaketanganyika.jpg',
     img2: 'images/animal.jpg',
     img3: 'images/panoramique.jpg',
-    alt: 'Vault'
+    alt: 'image'
   };
   
   export const homeObjThree = {
     lightBg: true,
     lightText: false,
-    lightTextDesc: false,
+    lightTextDesc: true,
     topLine: "L'environnement",
     headline: "L'environnement",
     description:

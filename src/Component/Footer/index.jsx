@@ -21,12 +21,12 @@ const Footer = () => {
                             </p>
                         </Col>
                         <Col className="sectionFooter offset-1 " >
-                            <h5 className={'text-white text-uppercase'}>Historiques</h5>
+                            <h5 className={'text-white text-uppercase'}>Tourismes</h5>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link text-mute">Historiques</Link></li>
-                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link">Historiques</Link></li>
-                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link">Historiques</Link></li>
-                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link">Historiques</Link></li>
+                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link text-mute">Tourismes</Link></li>
+                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link">Tourismes</Link></li>
+                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link">Tourismes</Link></li>
+                                <li className="nav-item mb-2 "><Link to={"/"} className="nav-link p-0 text-white all_link">Tourismes</Link></li>
                             </ul>
                         </Col>
                         <Col className="sectionFooter offset-1  " >

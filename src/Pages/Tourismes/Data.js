@@ -11,7 +11,7 @@ export const homeObjOne = {
     img1: 'images/bateaulaketanganyika.jpg',
     img2: 'images/animal.jpg',
     img3: 'images/panoramique.jpg',
-    alt: 'Credit Card'
+    alt: 'image'
   };
   
   export const homeObjTwo = {
@@ -27,7 +27,7 @@ export const homeObjOne = {
     img1: 'images/bateaulaketanganyika.jpg',
     img2: 'images/animal.jpg',
     img3: 'images/panoramique.jpg',
-    alt: 'Vault'
+    alt: 'image'
   };
   
   export const homeObjThree = {
@@ -43,7 +43,7 @@ export const homeObjOne = {
     img1: 'images/bateaulaketanganyika.jpg',
     img2: 'images/animal.jpg',
     img3: 'images/panoramique.jpg',
-    alt: 'Vault'
+    alt: 'image'
   };
   
   export const homeObjFour = {
@@ -59,6 +59,6 @@ export const homeObjOne = {
     img1: 'images/pyramidrutovu.jpg',
     img2: 'images/animal.jpg',
     img3: 'images/shutdemwishanga.jpg',
-    alt: 'Vault'
+    alt: 'image'
   };
   

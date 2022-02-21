@@ -8,9 +8,7 @@ export default function Monument() {
   return (
     <div className={'topHeader'}>
           <HeroSections {...homeObjOne} />
-          <HeroSections {...homeObjThree} />
           <HeroSections {...homeObjTwo} />
-          <HeroSections {...homeObjFour} />
     </div>
   )
 }

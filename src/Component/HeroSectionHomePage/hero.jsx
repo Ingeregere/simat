@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import './styleHero.css';
 
 
@@ -44,30 +44,13 @@ export default function HeroSections({
               </div>
                 </Col>
                 <Col md={6}>
-                    
-                    <Carousel fade>
-                    <Carousel.Item>
+                 
                       <img
                         className="d-block w-100"
                         src={img1}
                         alt={alt}
                       />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src={img2}
-                        alt={alt}
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100"
-                        src={img3}
-                        alt={alt}
-                      />
-                    </Carousel.Item>
-        </Carousel>
+                 
                 </Col>
             </Row>
         </Container>
